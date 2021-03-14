@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/img" android:layout_width="match_parent" android:layout_height="500dp"/>
+        <Button android:textSize="30dp" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@+id/photo" android:background="@color/blue" android:layout_width="match_parent" android:layout_height="50dp" android:text="開啟相簿" android:layout_weight="1"/>
+        <Button android:textSize="30dp" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@+id/confirm" android:background="@color/blue" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="確認" android:layout_weight="1"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

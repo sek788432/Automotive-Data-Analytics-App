@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:background="@color/white" android:layout_width="600dp" android:layout_height="800dp">
+        <ProgressBar android:id="@+id/progressBar" android:background="@drawable/progress_bar" android:layout_width="100dp" android:layout_height="100dp" android:layout_marginLeft="150dp" android:layout_marginTop="300dp"/>
+        <TextView android:textSize="20dp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/tvTip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="160dp" android:layout_marginTop="340dp" android:text="運算中..." app:layout_constraintTop_toBottomOf="@+id/progressBar"/>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
