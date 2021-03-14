@@ -1,5 +1,5 @@
 # Vehicle-Data-Analytics-App
-An app made on Android Studio
+
 
 ## System Desgin
 ![image](./readme_files/1.PNG)
@@ -14,6 +14,4 @@ An app made on Android Studio
 ---
 
 ## Demo
-<video width="360" height="250" controls>
-  <source src="./readme_files/demo.mp4" type="video/mp4">
-</video>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/vgTYg_0r9xM/0.jpg)](https://www.youtube.com/watch?v=vgTYg_0r9xM)
