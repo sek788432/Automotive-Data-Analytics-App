@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@color/red" android:padding="15dp" android:layout_width="469dp" android:layout_height="635dp" android:layout_marginTop="45dp">
+        <LinearLayout android:orientation="horizontal" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="45dp">
+            <ImageView android:id="@+id/imageView2" android:layout_width="150dp" android:layout_height="150dp" app:srcCompat="@drawable/alert_sign"/>
+            <TextView android:textSize="55dp" android:textColor="@color/color_dark_red" android:id="@+id/textView11" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:layout_marginTop="40dp" android:text="危險!"/>
+        </LinearLayout>
+        <TextView android:textSize="36dp" android:textColor="@color/color_dark_blue" android:id="@+id/warn_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="60dp" android:text="偵測到引擎溫度過高!\10    請立即送修檢查"/>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
