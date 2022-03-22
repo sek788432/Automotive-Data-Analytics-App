@@ -1,4 +1,4 @@
-# Vehicle-Data-Analytics-App
+# Automotive-Data-Analytics-App
 
 
 ## System Desgin
@@ -7,7 +7,7 @@
 ---
 
 ## Function
-- Real-time vehicle data display
+- Real-time automotive data display
 - Real-time outlier detection
 - User Database 
 
